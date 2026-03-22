@@ -1,0 +1,320 @@
+  <meta name="theme-color" content="#000000" />
+ 
+<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+ 
+<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+ 
+<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+ 
+%PUBLIC_URL%/manifest.json
+ 
+%PUBLIC_URL%/favicon.ico
+ 
+%PUBLIC_URL%/logo192.png
+ 
+];
+ 
+const intents = [
+ 
+{
+  "intents": [
+    {
+      "tag": "B0",
+      "patternconst intents = [
+  {
+    tag: "greeting",
+    patterns: ["hi", "hello", "hey", "namaste"],
+    responses: ["🚆 Hello! I'm RailSathi AI. How can I assist you today?"]
+  },
+  {
+    tag: "cleanliness_issue",
+    patterns: [
+      "cleanliness issue",
+      "dirty coach",
+      "garbage in train",
+      "coach is dirty"
+    ],
+    responses: [
+      "🧹 Please provide your Train Number and Coach Number. I will help you report the cleanliness issue immediately."
+    ]
+  },
+  {
+    tag: "water_issue",
+    patterns: [
+      "no water",
+      "water problem",
+      "washroom has no water",
+      "tap not working"
+    ],
+    responses: [
+      "💧 Water issue noted. Please share your Train Number and Coach Number so I can register your complaint."
+    ]
+  },
+  {
+    tag: "electricity_issue",
+    patterns: [
+      "no electricity",
+      "fan not working",
+      "light not working",
+      "charging point not working"
+    ],
+    responses: [
+      "⚡ Please share your Train Number and Coach Number. I will report the electricity issue right away."
+    ]
+  },
+  {
+    tag: "complaint_status",
+    patterns: [
+      "check complaint status",
+      "status of my complaint",
+      "track complaint",
+      "complaint update"
+    ],
+    responses: [
+      "📊 Please provide your Complaint ID to check the current status."
+    ]
+  },
+  {
+    tag: "train_status",
+    patterns: [
+      "train status",
+      "where is my train",
+      "is train delayed",
+      "train running status"
+    ],
+    responses: [
+      "🚆 Please provide your Train Number so I can check the running status for you."
+    ]
+  },
+  {
+    tag: "pnr_status",
+    patterns: [
+      "pnr status",
+      "check pnr",
+      "my ticket status",
+      "is my ticket confirmed"
+    ],
+    responses: [
+      "🎫 Please provide your PNR number to check your ticket status."
+    ]
+  },
+  {
+    tag: "refund",
+    patterns: [
+      "ticket refund",
+      "how to get refund",
+      "cancel ticket refund",
+      "refund status"
+    ],
+    responses: [
+      "💰 Refunds are processed automatically after ticket cancellation. Please provide your PNR for detailed status."
+    ]
+  },
+  {
+    tag: "booking",
+    patterns: [
+      "book ticket",
+      "how to book train ticket",
+      "ticket booking",
+      "reserve seat"
+    ],
+    responses: [
+      "📝 You can book tickets via IRCTC website or app. I can guide you if needed!"
+    ]
+  },
+  {
+    tag: "food",
+    patterns: [
+      "order food",
+      "food in train",
+      "can i get food",
+      "meal service"
+    ],
+    responses: [
+      "🍱 You can order food in train via IRCTC eCatering or authorized vendors. I can help you with that!"
+    ]
+  },
+  {
+    tag: "emergency",
+    patterns: [
+      "emergency",
+      "help",
+      "security issue",
+      "danger situation"
+    ],
+    responses: [
+      "🚨 For emergencies, please call Railway Helpline: 139 or 182 (RPF). Stay safe!"
+    ]
+  },
+  {
+    tag: "lost_item",
+    patterns: [
+      "lost my luggage",
+      "lost item",
+      "missing bag",
+      "stolen bag"
+    ],
+    responses: [
+      "🧳 Please report lost items immediately to RPF or call 182. You can also file a complaint."
+    ]
+  },
+  {
+    tag: "platform",
+    patterns: [
+      "platform number",
+      "which platform",
+      "train platform"
+    ],
+    responses: [
+      "📍 Please provide your Train Number and Station name to get platform details."
+    ]
+  },
+  {
+    tag: "fare",
+    patterns: [
+      "ticket price",
+      "fare",
+      "how much ticket cost",
+      "train ticket cost"
+    ],
+    responses: [
+      "💵 Ticket fare depends on train, class, and distance. Please share route details."
+    ]
+  },
+  {
+    tag: "fallback",
+    patterns: [],
+    responses: [
+      "🤔 Sorry, I didn't understand. You can ask about train status, complaints, PNR, booking, or railway services."
+    ]
+  }
+];s": ["What is PixelCode?", "Tell me about this website"],
+      "responses": [
+        "PixelCode is a developer-focused learning platform built by Kundan. It offers the Striver DSA Sheet with an integrated code editor to practice, run, and submit code seamlessly. It also features top-quality tutorials in DSA, DBMS, OS, CN, and more."
+      ]
+    },
+    {
+      "tag": "B1",
+      "patterns": [
+        "Who developed PixelCode?",
+        "Who is the creator of PixelCode?"
+      ],
+      "responses": [
+        "PixelCode is developed by Kundan Kumar, a passionate developer dedicated to helping students master technical subjects effectively."
+      ]
+    },
+    {
+      "tag": "B2",
+      "patterns": [
+        "What can I learn on PixelCode?",
+        "What subjects does PixelCode cover?"
+      ],
+      "responses": [
+        "PixelCode offers educational content focused on core Computer Science subjects such as Data Structures and Algorithms (DSA), DBMS, Operating Systems, Computer Networks, and more."
+      ]
+    },
+    {
+      "tag": "B3",
+      "patterns": [
+        "Is the Striver DSA sheet available?",
+        "Can I practice Striver's DSA sheet here?"
+      ],
+      "responses": [
+        "Yes! PixelCode features the complete Striver DSA Sheet along with a built-in code editor where you can write, run, and submit your solutions."
+      ]
+    },
+    {
+      "tag": "B4",
+      "patterns": [
+        "Is there a code editor on this site?",
+        "Can I code directly on PixelCode?"
+      ],
+      "responses": [
+        "Absolutely! PixelCode includes a powerful in-browser code editor that supports multiple languages, allowing you to run and submit code efficiently."
+      ]
+    },
+    {
+      "tag": "B5",
+      "patterns": [
+        "Is this website free?",
+        "Do I need to pay to use PixelCode?"
+      ],
+      "responses": [
+        "Yes, PixelCode is completely free to use. Just sign up and start learning!"
+      ]
+    },
+    {
+      "tag": "B6",
+      "patterns": [
+        "How do I register?",
+        "How can I create an account on PixelCode?"
+      ],
+      "responses": [
+        "To register, visit the Sign Up page, enter your details, and you're ready to go!"
+      ]
+    },
+    {
+      "tag": "B7",
+      "patterns": [
+        "Can I track my progress?",
+        "Does this site save my submissions?"
+      ],
+      "responses": [
+        "Yes, PixelCode keeps track of your progress and submissions, helping you stay on top of your preparation."
+      ]
+    },
+    {
+      "tag": "B8",
+      "patterns": [
+        "What makes PixelCode different?",
+        "Why should I use PixelCode?"
+      ],
+      "responses": [
+        "PixelCode stands out for its smooth code editor, real-time submission tracking, curated content like Striver's DSA sheet, and rich tutorials crafted to simplify complex technical topics."
+      ]
+    },
+    {
+      "tag": "B9",
+      "patterns": [
+        "Are there tutorials available?",
+        "Can I learn DBMS or OS here?"
+      ],
+      "responses": [
+        "Yes! PixelCode offers easy-to-follow tutorials on DSA, DBMS, OS, CN, and other computer science core subjects."
+      ]
+    },
+    {
+      "tag": "B10",
+      "patterns": [
+        "Can I contribute content?",
+        "Can I upload questions or tutorials?"
+      ],
+      "responses": [
+        "Currently, content contribution is limited, but stay tuned! We plan to open community contributions soon."
+      ]
+    },
+    {
+      "tag": "B11",
+      "patterns": ["How do I reset my password?", "I forgot my password"],
+      "responses": [
+        "To reset your password, visit the login page and click on 'Forgot Password'. Follow the instructions to reset it."
+      ]
+    },
+    {
+      "tag": "B12",
+      "patterns": ["How can I contact support?", "Is there a support team?"],
+      "responses": [
+        "You can contact us anytime at support@pixelcode.com. We’re happy to help!"
+      ]
+    },
+    {
+      "tag": "B13",
+      "patterns": ["Can I use this on my phone?", "Is there a mobile version?"],
+      "responses": [
+        "Yes, PixelCode is mobile-friendly. A mobile app is also under development!"
+      ]
+    }
+  ]
+}
+
+ 

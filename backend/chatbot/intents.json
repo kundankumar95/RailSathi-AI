@@ -1,0 +1,157 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "namaste"],
+      "responses": ["🚆 Hello! I'm RailSathi AI. How can I assist you today?"]
+    },
+    {
+      "tag": "cleanliness_issue",
+      "patterns": [
+        "cleanliness issue",
+        "dirty coach",
+        "garbage in train",
+        "coach is dirty"
+      ],
+      "responses": [
+        "🧹 Please provide your Train Number and Coach Number. I will help you report the cleanliness issue immediately."
+      ]
+    },
+    {
+      "tag": "water_issue",
+      "patterns": [
+        "no water",
+        "water problem",
+        "washroom has no water",
+        "tap not working"
+      ],
+      "responses": [
+        "💧 Water issue noted. Please share your Train Number and Coach Number so I can register your complaint."
+      ]
+    },
+    {
+      "tag": "electricity_issue",
+      "patterns": [
+        "no electricity",
+        "fan not working",
+        "light not working",
+        "charging point not working"
+      ],
+      "responses": [
+        "⚡ Please share your Train Number and Coach Number. I will report the electricity issue right away."
+      ]
+    },
+    {
+      "tag": "complaint_status",
+      "patterns": [
+        "check complaint status",
+        "status of my complaint",
+        "track complaint",
+        "complaint update"
+      ],
+      "responses": [
+        "📊 Please provide your Complaint ID to check the current status."
+      ]
+    },
+    {
+      "tag": "train_status",
+      "patterns": [
+        "train status",
+        "where is my train",
+        "is train delayed",
+        "train running status"
+      ],
+      "responses": [
+        "🚆 Please provide your Train Number so I can check the running status for you."
+      ]
+    },
+    {
+      "tag": "pnr_status",
+      "patterns": [
+        "pnr status",
+        "check pnr",
+        "my ticket status",
+        "is my ticket confirmed"
+      ],
+      "responses": [
+        "🎫 Please provide your PNR number to check your ticket status."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "ticket refund",
+        "how to get refund",
+        "cancel ticket refund",
+        "refund status"
+      ],
+      "responses": [
+        "💰 Refunds are processed automatically after ticket cancellation. Please provide your PNR for detailed status."
+      ]
+    },
+    {
+      "tag": "booking",
+      "patterns": [
+        "book ticket",
+        "how to book train ticket",
+        "ticket booking",
+        "reserve seat"
+      ],
+      "responses": [
+        "📝 You can book tickets via IRCTC website or app. I can guide you if needed!"
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "order food",
+        "food in train",
+        "can i get food",
+        "meal service"
+      ],
+      "responses": [
+        "🍱 You can order food in train via IRCTC eCatering or authorized vendors. I can help you with that!"
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": ["emergency", "help", "security issue", "danger situation"],
+      "responses": [
+        "🚨 For emergencies, please call Railway Helpline: 139 or 182 (RPF). Stay safe!"
+      ]
+    },
+    {
+      "tag": "lost_item",
+      "patterns": ["lost my luggage", "lost item", "missing bag", "stolen bag"],
+      "responses": [
+        "🧳 Please report lost items immediately to RPF or call 182. You can also file a complaint."
+      ]
+    },
+    {
+      "tag": "platform",
+      "patterns": ["platform number", "which platform", "train platform"],
+      "responses": [
+        "📍 Please provide your Train Number and Station name to get platform details."
+      ]
+    },
+    {
+      "tag": "fare",
+      "patterns": [
+        "ticket price",
+        "fare",
+        "how much ticket cost",
+        "train ticket cost"
+      ],
+      "responses": [
+        "💵 Ticket fare depends on train, class, and distance. Please share route details."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "🤔 Sorry, I didn't understand. You can ask about train status, complaints, PNR, booking, or railway services."
+      ]
+    }
+  ]
+}
