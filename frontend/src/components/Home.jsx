@@ -76,7 +76,7 @@ const Home = () => {
 
     // 🔥 STEP 3: normal backend call
     try {
-      const response = await fetch("http://localhost:5000/chat", {
+      const response = await fetch("https://railsathi-ai-1.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
